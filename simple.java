@@ -14,10 +14,10 @@ public class simple {
 
         if(age>17)
         {
-            System.out.println("you're minor");
+            System.out.println("you're major");
         }
         else{
-            System.out.println("major");
+            System.out.println("minor");
         }
 
         int i=0,sum=0;
@@ -34,6 +34,11 @@ public class simple {
             sum=sum+i;
         }
         System.out.println("The Sum is " + sum);
+
+        String vote;
+        vote = (age>=18)?"Eligible for vote":"Not eligible";
+        System.out.println(vote);
+        
         System.out.println("Thus the program ends");
     }
 }
