@@ -53,7 +53,6 @@ public class strfun{
             System.out.println("This is not an email");
         }
 
-        
 
 
     }

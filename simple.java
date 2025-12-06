@@ -37,7 +37,6 @@ public class simple {
 
         String vote;
         vote = (age>=18)?"Eligible for vote":"Not eligible";
-        
         System.out.println(vote);
         
         System.out.println("Thus the program ends");

@@ -11,8 +11,9 @@ public class strdouble {
 
         Random ram = new Random();
         double num = ram.nextDouble(-5,6);
-        
+
         System.out.println(num);
+        
 
         if(num>0)
         {

@@ -16,7 +16,7 @@ public class loop {
             sum=sum+count;
             count++;
         }
-        
+
         System.out.println("The sum of the number is "+sum);
         System.out.println("\n");
 
@@ -39,3 +39,4 @@ public class loop {
         }
     }
 }
+

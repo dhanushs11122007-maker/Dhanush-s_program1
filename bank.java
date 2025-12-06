@@ -110,7 +110,7 @@ public class bank {
 
             System.out.println("Are you want to exit(true/false) : ");
             boolean exit = scan.nextBoolean();
-            
+
             if(exit)
             {
                 System.out.println("Thank you!!!");
@@ -124,3 +124,4 @@ public class bank {
     }
 
 }
+
