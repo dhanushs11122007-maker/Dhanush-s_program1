@@ -12,7 +12,7 @@ public class ifs{
 
     public static void main(String[] args){
 
-        // METHOD 1
+        // METHOD 1 IF ELSE
 
         String day = Days();
 
@@ -49,7 +49,7 @@ public class ifs{
             System.out.println("Entered a Wrong String");
         }
 
-        //METHOD 2
+        //METHOD 2 SWITCH
         
         switch (day){
             case"MONDAY"->System.out.println("The entered day is MONDAY(WEEKDAY)");

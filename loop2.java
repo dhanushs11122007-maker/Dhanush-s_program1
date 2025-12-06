@@ -9,6 +9,7 @@ public class loop2 {
         
         Scanner scan = new Scanner(System.in);
         age = scan.nextInt();
+        
         System.out.printf("Enter the age:%d\n",age);
 
         while(age>0)
