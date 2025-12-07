@@ -15,7 +15,7 @@ public class bank {
 
     static String Choice() {
 
-        System.out.println("Enter your choice...");
+        System.out.println("Enter your choice (1/2/3/4)...");
         System.out.println("1.BALANCE \n" + "2.DEPOSIT \n" + "3.WITHDRAW \n" + "4.EXIT \n");
         int choice = scan.nextInt();
 
